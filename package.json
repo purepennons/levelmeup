@@ -7,20 +7,26 @@
     "type": "git",
     "url": "https://github.com/rvagg/levelmeup.git"
   },
+  "scripts": {
+    "test": "workshopper-adventure-test"
+  },
   "license": "MIT",
   "dependencies": {
     "after": "~0.8.1",
     "echomunge": "~0.2.0",
-    "level": "^0.18.0",
+    "level": "^1.3.0",
     "level-sublevel": "~6.2.1",
     "multilevel": "~5.5.0",
     "readable-stream": "~1.0.15",
     "rimraf": "~2.2.2",
     "through2": "~0.2.1",
     "through2-map": "~1.1.0",
-    "workshopper": "^2.1.1",
+    "workshopper-adventure": "^4.3.1",
+    "workshopper-adventure-test": "^1.0.0",
     "workshopper-exercise": "^2.1.0"
   },
-  "bin": "./levelmeup.js",
+  "bin": {
+    "levelmeup": "./bin/levelmeup"
+  },
   "preferGlobal": true
 }
